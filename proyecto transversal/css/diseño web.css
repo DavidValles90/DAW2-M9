@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.bandera{
+    max-width: 20px;
+}
+
+.logo{
+    width: 50%;
+    
+}
+
+.compras{
+    max-height: 20px;
+    margin: 10px;
+}
+
+.menuhrzntl{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-top:1px black solid;
+}
+
+.li {
+    position: relative;
+    float: left;
+  }
+  
+.li a {
+    font-weight: bold;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.li a:hover {
+    background-color:yellow;
+  }
+
+  .search {
+    width: 200%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid black;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color:black;
+  }
+  
+  .searchButton {
+    width: 25%;
+    max-height: 36px;
+    background:yellow;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+    font-size: 11px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+  }
+  .mainimg {
+    width: 100%;
+    -webkit-filter: brightness(50%);
+    filter: brightness(55%);
+    }
+    
+
+  .fisher{
+    font-size: 11pt;
+    position: absolute;
+    left:45%;
+    top:10%;
+    color:white;
+  }
+
+  .kitchen{
+    font-size: 35pt;
+    position: absolute;
+    left:27%;
+    top:12%;
+    color:yellow;
+    font-weight: bold;
+  }
+  .cash{
+    font-size: 35pt;
+    position: absolute;
+    left:51%;
+    top:12%;
+    color:white;
+  }
+  .select{
+    font-size: 11pt;
+    position: absolute;
+    left:40%;
+    top:18%;
+    color:white;
+  }
+  .packages{
+    font-size: 11pt;
+    position: absolute;
+    left:47%;
+    top:20%;
+    color:white;
+  }
+  .shopnow{
+    width: 130px;
+    height: 50px;
+    background-color: yellow;
+    font-size: 9pt;
+    position: absolute;
+    left:45%;
+    top:25%;
+    color:white;
+    border-radius: 5px;
+  }
