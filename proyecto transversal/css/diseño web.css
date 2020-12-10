@@ -23,7 +23,6 @@
 }
 
 .li {
-    position: relative;
     float: left;
   }
   
@@ -81,6 +80,7 @@
     width: 100%;
     -webkit-filter: brightness(50%);
     filter: brightness(55%);
+    height: 525px;
     }
     
 
@@ -88,37 +88,38 @@
     font-size: 11pt;
     position: absolute;
     left:45%;
-    top:10%;
+    top:100px;
     color:white;
   }
 
   .kitchen{
     font-size: 35pt;
     position: absolute;
-    left:27%;
-    top:12%;
+    left:350px;
+    top:120px;
     color:yellow;
     font-weight: bold;
   }
   .cash{
+    justify-content: center;
     font-size: 35pt;
     position: absolute;
-    left:51%;
-    top:12%;
+    left:680px;
+    top:120px;
     color:white;
   }
   .select{
     font-size: 11pt;
     position: absolute;
-    left:40%;
-    top:18%;
+    left:550px;
+    top:200px;
     color:white;
   }
   .packages{
     font-size: 11pt;
     position: absolute;
-    left:47%;
-    top:20%;
+    left:630px;
+    top:220px;
     color:white;
   }
   .shopnow{
@@ -127,8 +128,58 @@
     background-color: yellow;
     font-size: 9pt;
     position: absolute;
-    left:45%;
-    top:25%;
+    left:600px;
+    top:310px;
     color:white;
     border-radius: 5px;
   }
+.menuarrivals{
+  max-width: 100%;
+  position:relative;
+  border: 1px black solid;
+  margin-left: 30px;
+  margin-right: 30px;
+  top: -100px;
+  background-color: white;
+}
+
+.arrivals{
+  position:absolute;
+  color:white;
+  left:160px;
+  top:50px;
+  font-size: 9pt;
+}
+
+.detelposh{
+  position:absolute;
+  color:white;
+  left:140px;
+  top:80px;
+  font-size: 20pt;
+  
+}
+.speaker{
+    position: absolute;
+    color:white;
+    left:90px;
+    top:110px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+.ever{
+  position: absolute;;
+  color:white;
+  left:175px;
+  top:150px;
+  font-size: 20pt;
+  
+}
+.learn{
+  position: absolute;;
+  color:yellow;
+  left:140px;
+  top:200px;
+  font-size: 9pt;
+  font-weight: bold;
+}
